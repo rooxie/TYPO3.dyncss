@@ -233,7 +233,7 @@ abstract class AbstractParser implements ParserInterface
      */
     public function removePrefixFromString($prefix, $string)
     {
-        if (GeneralUtility::isFirstPartOfStr($string, $prefix)) {
+        if (str_starts_with($string, $prefix)) {
             return substr($string, strlen($prefix));
         } else {
             return $string;
