@@ -3,6 +3,7 @@
   "description": "Compile your CSS dynamically with DynCss Adapters.",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0+",
+  "minimum-stability": "alpha",
   "require": {
     "typo3/cms-core": "^12.0",
     "typo3/cms-backend": "^12.0",
